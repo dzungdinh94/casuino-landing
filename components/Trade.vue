@@ -53,7 +53,7 @@
           <div class="landing-page-upcoming-events-slide">
             <img
               alt="Rectangle149401"
-              src="/external/marker.png"
+              src="~/assets/external/marker.png"
               class="landing-page-upcoming-events-rectangle14"
             />
           </div>
@@ -73,12 +73,12 @@
                   <div class="landing-page-upcoming-events-group381">
                     <img
                       alt="Ellipse1I9401"
-                      src="/external/ellipse1i9401-hnr-200h.png"
+                      src="~/assets/external/ellipse1i9401-hnr-200h.png"
                       class="landing-page-upcoming-events-ellipse1"
                     />
                     <img
                       alt="VectorI9401"
-                      src="/external/vectori9401-zcjj.svg"
+                      src="~/assets/external/vectori9401-zcjj.svg"
                       class="landing-page-upcoming-events-vector"
                     />
                   </div>
@@ -100,7 +100,7 @@
                 <div class="landing-page-upcoming-events-base">
                   <img
                     alt="RectangleI9401"
-                    src="/external/rectanglei9401-md1c-200h.png"
+                    src="~/assets/external/rectanglei9401-md1c-200h.png"
                     class="landing-page-upcoming-events-rectangle"
                   />
                 </div>

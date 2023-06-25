@@ -3,7 +3,7 @@
     <div class="landing-page-upcoming-events-logo3">
       <img
         alt="Frame890I9345"
-        src="/external/frame890i9345-7zxt.svg"
+        src="~/assets/external/frame890i9345-7zxt.svg"
         class="landing-page-upcoming-events-frame8902"
       />
     </div>

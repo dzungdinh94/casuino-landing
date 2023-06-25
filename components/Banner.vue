@@ -2,12 +2,12 @@
   <div class="landing-page-upcoming-events-header">
       <img
         alt="Illus0119628"
-        src="/external/Illus_01 1.png"
+        src="~/assets/external/Illus_01.png"
         class="landing-page-upcoming-events-illus011"
       />
       <img
         alt="Rectangle179646"
-        src="/external/bg-banner.png"
+        src="~/assets/external/bg-banner.png"
         class="landing-page-upcoming-events-rectangle17"
       />
       <span class="landing-page-upcoming-events-text">
