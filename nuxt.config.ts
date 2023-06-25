@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/google-fonts',],
   googleFonts: {
     display: 'swap',
+    inject: true,
     download: true,
     families: {
       Inter: [100,200,300,400,500,600,700,800,900],
