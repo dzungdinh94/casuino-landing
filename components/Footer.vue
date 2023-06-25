@@ -46,37 +46,30 @@
         <span>
           <span>
             Sic Bo
-            <span v-html="rawsg7h"></span>
           </span>
           <br />
           <span>
             Slots
-            <span v-html="rawd439"></span>
           </span>
           <br />
           <span>
             Blackjack
-            <span v-html="raw3rn4"></span>
           </span>
           <br />
           <span>
             Baccarat
-            <span v-html="rawa8ms"></span>
           </span>
           <br />
           <span>
             Crash
-            <span v-html="rawo1qu"></span>
           </span>
           <br />
           <span>
             Mines
-            <span v-html="raw3ea9"></span>
           </span>
           <br />
           <span>
             HiLo
-            <span v-html="rawgs4a"></span>
           </span>
           <br />
           <span>Pocker</span>
@@ -91,7 +84,6 @@
         <span>
           <span>
             News
-            <span v-html="raweswu"></span>
           </span>
           <br />
           <span>Whitepaper</span>
