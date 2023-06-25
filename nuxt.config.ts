@@ -2,9 +2,10 @@
 export default defineNuxtConfig({
   css: [`~/style.css`],
   devtools: { enabled: true },
-  modules: ['@nuxtjs/google-fonts'],
+  modules: ['@nuxtjs/google-fonts',],
   googleFonts: {
     display: 'swap',
+    download: true,
     families: {
       Inter: [100,200,300,400,500,600,700,800,900],
       Jura: {
