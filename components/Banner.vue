@@ -1,23 +1,27 @@
 <template>
   <div class="landing-page-upcoming-events-header">
-      <img
-        alt="Illus0119628"
-        src="~/assets/external/Illus_01.png"
-        class="landing-page-upcoming-events-illus011"
-      />
-      <img
-        alt="Rectangle179646"
-        src="~/assets/external/bg-banner.png"
-        class="landing-page-upcoming-events-rectangle17"
-      />
-      <span class="landing-page-upcoming-events-text">
-        <span>
-          <span>Get ready to roll the dice &amp;</span>
-          <br />
-          <span>win big at our casino paradise!</span>
-        </span>
+    <img
+      alt="Illus0119628"
+      src="~/assets/external/Illus_01.png"
+      class="landing-page-upcoming-events-illus011"
+    />
+  <img
+      alt="Rectangle179646"
+      src="~/assets/external/bg-banner.png"
+      class="landing-page-upcoming-events-rectangle17"
+    />
+    <span class="landing-page-upcoming-events-text">
+      <span>
+        <span>Get ready to roll the dice &amp;</span>
+        <br />
+        <span>win big at our casino paradise!</span>
       </span>
+    </span>
   </div>
+  <div class="gradient">
+
+  </div>
+
 </template>
 <script>
 export default {
@@ -30,21 +34,29 @@ export default {
 .landing-page-upcoming-events-header {
   display: flex;
   justify-content: center;
+  padding: 40px 0px;
   background-color: rgba(31, 31, 31, 1);
-  height: 906px;
+  position: relative;
 }
+.gradient {
+    width: 100%;
 
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-color: blue;
+}
 .landing-page-upcoming-events-illus011 {
   width: 700px;
   height: 700px;
 }
 
 .landing-page-upcoming-events-rectangle17 {
-    width:100%;
-  height:100%;
-  background-size:cover;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  position:absolute;
+  position: absolute;
 }
 .landing-page-upcoming-events-text {
   color: var(--dl-color-default-white);
