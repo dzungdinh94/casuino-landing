@@ -172,7 +172,7 @@
           <img
             alt="Ellipse139401"
             src="~/assets/external/0031.png"
-            class="w-[140px] h-[140px]  md:w-[260px] md:h-[260px]"
+            class="w-[140px] h-[140px] md:w-[260px] md:h-[260px]"
           />
         </div>
         <div

@@ -3,9 +3,9 @@
     <span class="landing-page-upcoming-events-text151 mb-10 lg:mb-4">
       <span>Why you choose us</span>
     </span>
-    <div class="landing-page-upcoming-events-iconbox gap-4 w-full">
-      <div class="landing-page-upcoming-events-framerow1 w-full flex-col lg:flex-row">
-        <div class="landing-page-upcoming-events-frame12 w-full">
+    <div class="landing-page-upcoming-events-iconbox flex flex-1 gap-4">
+      <div class="landing-page-upcoming-events-framerow1 flex flex-1 w-full flex-col lg:flex-row">
+        <div class="landing-page-upcoming-events-frame12 flex-1 ">
           <img
             alt="user9444"
             src="~/assets/external/user9444-uzv.svg"
@@ -23,13 +23,13 @@
             </span>
           </div>
         </div>
-        <div class="landing-page-upcoming-events-frame12 w-full">
+        <div class="landing-page-upcoming-events-frame12 flex-1 ">
           <img
             alt="handshake9444"
             src="~/assets/external/handshake9444-f6m.svg"
             class="landing-page-upcoming-events-handshake"
           />
-          <div class="landing-page-upcoming-events-frame9001">
+          <div class="landing-page-upcoming-events-frame9001 ">
             <span class="landing-page-upcoming-events-text123 HeadingH6">
               <span>Fair Gambling</span>
             </span>
@@ -38,7 +38,7 @@
             </span>
           </div>
         </div>
-        <div class="landing-page-upcoming-events-frame12 w-full">
+        <div class="landing-page-upcoming-events-frame12 flex-1">
           <img
             alt="money9444"
             src="~/assets/external/money9444-j4c5.svg"
@@ -157,8 +157,7 @@ export default {
 .landing-page-upcoming-events-whywechooseyou {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  flex-shrink: 0;
+  flex:1;
   margin: 64px 0px;
 }
 .landing-page-upcoming-events-iconbox {
@@ -178,7 +177,7 @@ export default {
   padding: 16px 24px 24px;
   align-items: flex-start;
   flex-shrink: 0;
-  flex: 1;
+  flex:1;
   border-color: rgba(61, 61, 61, 1);
   border-style: solid;
   border-width: 1px;
