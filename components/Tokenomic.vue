@@ -1,10 +1,10 @@
 <template>
-  <div class="landing-page-upcoming-events-tokenomics">
+  <div class="landing-page-upcoming-events-tokenomics p-4 lg:p-6">
     <span class="landing-page-upcoming-events-text075">
       <span>Tokenomic</span>
     </span>
-    <div class="landing-page-upcoming-events-info">
-      <div class="landing-page-upcoming-events-left">
+    <div class="landing-page-upcoming-events-info flex-col lg:flex-row justify-center items-center">
+      <div class="landing-page-upcoming-events-left w-full flex-col lg:flex-row">
         <div class="landing-page-upcoming-events-frame1">
           <div class="landing-page-upcoming-events-frame11">
             <img
@@ -145,7 +145,7 @@
           </div>
         </div>
       </div>
-      <div class="landing-page-upcoming-events-right">
+      <div class="landing-page-upcoming-events-right my-6 lg:my-0 justify-center">
         <div class="landing-page-upcoming-events-chart">
           <div class="landing-page-upcoming-events-shape">
             <img
@@ -180,12 +180,10 @@ export default {
 </script>
 <style scoped>
 .landing-page-upcoming-events-tokenomics {
-
   display: flex;
-  padding: 40px 24px 64px;
-  margin: 64px 244px;
-  flex-grow: 1;
-  align-items: flex-end;
+  /* padding: 40px 24px 64px;
+  margin: 64px 0px; */
+
   flex-shrink: 0;
   border-color: rgba(61, 61, 61, 1);
   border-style: solid;
@@ -212,23 +210,16 @@ export default {
   justify-content: space-between;
   align-items: center;
   flex: 1;
-  width:100%
 }
 .landing-page-upcoming-events-left {
-  gap: 24px;
   display: flex;
   padding: 40px 24px;
-  flex-grow: 1;
-  align-items: flex-start;
-  border-color: rgba(31, 31, 31, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 4px;
+  flex: 1;
+  justify-content: space-between;
   background-color: var(--dl-color-gray-22);
 }
 .landing-page-upcoming-events-frame1 {
   gap: 16px;
-  width: 248px;
   display: flex;
   flex-grow: 1;
   align-items: flex-start;
@@ -238,9 +229,7 @@ export default {
 .landing-page-upcoming-events-frame11 {
   gap: 16px;
   display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
+
 }
 .landing-page-upcoming-events-rectangle10 {
   width: 16px;
@@ -278,7 +267,6 @@ export default {
   height: 16px;
 }
 .landing-page-upcoming-events-info02 {
-  width: 216px;
   display: flex;
   flex-grow: 1;
   align-items: flex-start;
@@ -310,7 +298,6 @@ export default {
   height: 16px;
 }
 .landing-page-upcoming-events-info03 {
-  width: 216px;
   display: flex;
   flex-grow: 1;
   align-items: flex-start;
@@ -409,7 +396,6 @@ export default {
   height: 16px;
 }
 .landing-page-upcoming-events-info06 {
-  width: 216px;
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
@@ -440,7 +426,6 @@ export default {
   height: 16px;
 }
 .landing-page-upcoming-events-info07 {
-  width: 216px;
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
@@ -471,7 +456,6 @@ export default {
   height: 16px;
 }
 .landing-page-upcoming-events-info08 {
-  width: 216px;
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
@@ -502,7 +486,6 @@ export default {
   height: 16px;
 }
 .landing-page-upcoming-events-info09 {
-  width: 216px;
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
@@ -522,27 +505,19 @@ export default {
   line-height: 24px;
 }
 .landing-page-upcoming-events-right {
-  gap: 8px;
   display: flex;
   padding: 8px;
-  flex-grow: 1;
-  align-self: stretch;
-  align-items: center;
-  justify-content: center;
+  margin-left: 15px;
+  flex: 1;
 }
 .landing-page-upcoming-events-chart {
-  width: 358px;
-  height: 358px;
   display: flex;
   position: relative;
   align-items: flex-start;
   flex-shrink: 1;
 }
 .landing-page-upcoming-events-shape {
-  top: 0px;
-  left: 0px;
-  width: 358px;
-  height: 358px;
+
   display: flex;
   align-items: flex-start;
   flex-shrink: 1;
@@ -550,12 +525,7 @@ export default {
 .landing-page-upcoming-events-ellipse13 {
   top: 0px;
   left: 0px;
-  width: 358px;
-  height: 358px;
 }
-
-
-
 .landing-page-upcoming-events-stas {
   gap: 4px;
   top: 144.44749450683594px;

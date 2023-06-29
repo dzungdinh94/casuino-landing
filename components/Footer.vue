@@ -1,5 +1,5 @@
 <template>
-  <div class="landing-page-upcoming-events-group1000001749">
+  <div class="flex flex-col gap-10 md:flex-row pt-[40px] pb-32 sm:px-[24px] md:px-[100px] lg:px-[244px] xlg:px-[244px] bg-[#1F1F1F]">
     <div class="footer-item">
       <div class="landing-page-upcoming-events-logo2">
         <img
@@ -91,7 +91,7 @@
       </span>
     </div>
 
-    <div class="landing-page-upcoming-events-frame917">
+    <div class="footer-item">
       <img
         alt="image19513"
         src="~/assets/external/image19513-td5e-200h.png"
@@ -114,18 +114,15 @@ export default {
 };
 </script>
 <style scoped>
-.landing-page-upcoming-events-group1000001749 {
-  display: flex;
-  padding: 64px 244px;
-  align-items: flex-start;
-  flex-shrink: 1;
-  justify-content: space-between;
-  background-color: rgba(31, 31, 31, 1);
-  margin-top: 200px;
+.container {
+
 }
 .footer-item {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 1;
 }
 .landing-page-upcoming-events-text175 {
   color: rgba(255, 255, 255, 1);
@@ -180,7 +177,6 @@ export default {
 }
 .landing-page-upcoming-events-text201 {
   color: rgba(255, 255, 255, 1);
-  width: 292px;
   height: auto;
   text-align: left;
   line-height: 24px;
@@ -190,11 +186,10 @@ export default {
   padding: 2.9538462162017822px 0;
   overflow: hidden;
 
-  align-items: center;
+  align-items: flex-start;
   flex-shrink: 0;
 }
 .landing-page-upcoming-events-frame8901 {
-  width: 192px;
   height: 41px;
   flex-grow: 1;
   align-self: stretch;
@@ -203,7 +198,6 @@ export default {
 .landing-page-upcoming-events-frame916 {
   display: flex;
   align-items: center;
-  width: 100%;
   justify-content: space-between;
 }
 .landing-page-upcoming-events-twitter {
@@ -285,20 +279,7 @@ export default {
   height: 30px;
   position: absolute;
 }
-.landing-page-upcoming-events-vector6 {
-  top: 12.499113082885742px;
-  left: 10.831229209899902px;
-  width: 18px;
-  height: 14px;
-  position: absolute;
-}
-.landing-page-upcoming-events-vector7 {
-  top: 19.62499237060547px;
-  left: 22.29166603088379px;
-  width: 0px;
-  height: 1px;
-  position: absolute;
-}
+
 .landing-page-upcoming-events-vector8 {
   width: 40px;
   height: 40px;

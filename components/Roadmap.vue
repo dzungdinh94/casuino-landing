@@ -286,7 +286,7 @@ export default {
 <style scoped>
 .roadmap-container {
   display: flex;
-  margin: 64px 244px;
+  margin: 64px 0px;
   flex-grow: 1;
   flex-shrink: 0;
   border-color: rgba(61, 61, 61, 1);

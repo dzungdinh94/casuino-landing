@@ -1,9 +1,9 @@
 <template>
-  <div class="trade-container">
-    <div class="landing-page-upcoming-events-amount">
+  <div class="trade-container mt-10">
+    <div class="landing-page-upcoming-events-amount p-4 md:p-10">
       <div class="landing-page-upcoming-events-frame898">
-        <div class="landing-page-upcoming-events-statitic">
-          <div class="landing-page-upcoming-events-title">
+        <div class="landing-page-upcoming-events-statitic flex flex-col md:flex-row w-full justify-start md:items-center">
+          <div class="landing-page-upcoming-events-title justify-start">
             <span class="landing-page-upcoming-events-text044 HeadingH3">
               <span>$CSC COIN</span>
             </span>
@@ -11,7 +11,7 @@
               <span>1$CSC = 0.001 SUI</span>
             </span>
           </div>
-          <div class="landing-page-upcoming-events-frame894">
+          <div class="landing-page-upcoming-events-frame894 md:w-3/4 mt-6 md:mt-0 p-4 lg:p-10 justify-between">
             <div class="landing-page-upcoming-events-title1">
               <span class="landing-page-upcoming-events-text048 TitleMRegular">
                 <span>Soft cap</span>
@@ -58,8 +58,8 @@
             />
           </div>
         </div>
-        <div class="landing-page-upcoming-events-input">
-          <div class="landing-page-upcoming-events-frame896">
+        <div class="landing-page-upcoming-events-input flex flex-col lg:flex-row gap-4">
+          <div class="landing-page-upcoming-events-frame896 w-full md:w-1/2 ">
             <span class="landing-page-upcoming-events-text066 TitleMRegular">
               <span>What SUI amount do you wish to invest?</span>
             </span>
@@ -86,7 +86,7 @@
               </div>
             </div>
           </div>
-          <div class="landing-page-upcoming-events-frame897">
+          <div class="landing-page-upcoming-events-frame896 w-full md:w-1/2 ">
             <span class="landing-page-upcoming-events-text069 TitleMRegular">
               <span>How much $CSC will you receive in return?</span>
             </span>
@@ -127,7 +127,6 @@ export default {
 <style scoped>
 .trade-container {
   display: flex;
-  padding: 64px 244px;
   flex: 1;
   flex-direction: column;
   width: 100%;
@@ -135,7 +134,6 @@ export default {
 
 .landing-page-upcoming-events-amount {
   display: flex;
-  padding: 40px 40px 64px;
 
   align-items: flex-start;
   border-radius: 8px;
@@ -152,7 +150,6 @@ export default {
 .landing-page-upcoming-events-statitic {
   display: flex;
   flex: 1;
-  align-items: center;
   justify-content: space-between;
   width: 100%;
 }
@@ -174,9 +171,7 @@ export default {
   line-height: 28px;
 }
 .landing-page-upcoming-events-frame894 {
-  gap: 64px;
   display: flex;
-  padding: 24px 40px;
   align-items: flex-start;
   border-color: rgba(61, 61, 61, 1);
   border-style: solid;
@@ -296,13 +291,11 @@ export default {
   margin-bottom: 40px;
 }
 .landing-page-upcoming-events-frame896 {
-  gap: 4px;
   display: flex;
   flex-grow: 1;
   align-items: flex-start;
   flex-shrink: 0;
   flex-direction: column;
-  margin-right: 40px;
 }
 .landing-page-upcoming-events-text066 {
   color: var(--dl-color-default-white);

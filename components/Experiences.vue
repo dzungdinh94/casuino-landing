@@ -1,11 +1,12 @@
 <template>
   <div class="landing-page-upcoming-events-frame920">
-    <span class="landing-page-upcoming-events-text020">
+
+    <span class="landing-page-upcoming-events-text020 text-[24px] lg:text-[60px] lg:ml-[200px]">
       <span>More interesting experiences</span>
     </span>
-    <div class="landing-page-upcoming-events-boxgames">
-      <div class="landing-page-upcoming-events-game2">
-        <span class="landing-page-upcoming-events-text018 HeadingH4">
+    <div class="landing-page-upcoming-events-boxgames w-full h-auto flex-1 flex-col lg:flex-row gap-4">
+      <div class="landing-page-upcoming-events-game2 w-full p-6 flex-1">
+        <span class="landing-page-upcoming-events-text018 HeadingH4 mb-[148px]">
           <span>Sic bo</span>
         </span>
         <span class="landing-page-upcoming-events-text013 TitleLRegular-Cap">
@@ -18,9 +19,9 @@
           </span>
         </span>
       </div>
-      <div class="right-side">
-        <div class="landing-page-upcoming-events-game">
-          <span class="landing-page-upcoming-events-text007 HeadingH4">
+      <div class="right-side gap-4 w-full flex-1">
+        <div class="landing-page-upcoming-events-game2 w-full p-6">
+          <span class="landing-page-upcoming-events-text007 mb-[148px] HeadingH4">
             <span>Baccarat</span>
           </span>
           <span class="landing-page-upcoming-events-text005 TitleLRegular-Cap">
@@ -28,8 +29,8 @@
           </span>
     
         </div>
-        <div class="landing-page-upcoming-events-game1">
-          <span class="landing-page-upcoming-events-text007 HeadingH4">
+        <div class="landing-page-upcoming-events-game2 w-full p-6">
+          <span class="landing-page-upcoming-events-text007 mb-[148px]  HeadingH4">
             <span>Roulette</span>
           </span>
           <span class="landing-page-upcoming-events-text005 TitleLRegular-Cap">
@@ -54,13 +55,11 @@ export default {
   flex-direction: column;
   align-items: flex-start;
   flex-shrink: 0;
-  padding: 64px 244px;
+  padding: 64px 0px;
 }
 .landing-page-upcoming-events-text020 {
   color: rgba(255, 255, 255, 1);
   height: auto;
-  margin-left: 200px;
-  font-size: 60px;
   font-style: Bold;
   text-align: left;
   font-family: Jura;
@@ -68,20 +67,18 @@ export default {
   line-height: 80px;
   font-stretch: normal;
   text-decoration: none;
-  width: 592px;
   margin-bottom: 40px;
 }
 .landing-page-upcoming-events-boxgames {
   display: flex;
-  height: 628px;
-  width: 100%;
+  /* height: 628px;
+  width: 100%; */
 }
 
 .landing-page-upcoming-events-text005 {
   top: 246px;
   left: 40px;
   color: var(--dl-color-default-white);
-  width: 512px;
   height: auto;
 
   text-align: left;
@@ -112,15 +109,13 @@ export default {
 }
 .landing-page-upcoming-events-game2 {
   display: flex;
-  flex: 1;
   flex-direction: column;
   border-color: rgba(31, 31, 31, 1);
   border-style: solid;
   justify-content: space-between;
   border-width: 1px;
   border-radius: 8px;
-  padding: 32px;
-  height: 628px;
+
   background-color: var(--dl-color-gray-22);
 }
 .landing-page-upcoming-events-game {
@@ -132,8 +127,6 @@ export default {
   justify-content: space-between;
   border-width: 1px;
   border-radius: 8px;
-  padding: 32px;
-  height: 310px;
   background-color: var(--dl-color-gray-22);
 }
 .landing-page-upcoming-events-game1 {
@@ -154,7 +147,6 @@ export default {
   display: flex;
   flex-direction: column;
   flex: 1;
-  margin-left: 8px;
   height: 100%;
 }
 .landing-page-upcoming-events-text013 {

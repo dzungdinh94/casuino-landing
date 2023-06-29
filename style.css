@@ -109,7 +109,6 @@ html {
   line-height: 1.15;
   font-family: "Jura";
 }
-
 body {
   margin: 0;
 }
@@ -210,7 +209,7 @@ body {
   letter-spacing: normal;
   line-height: 1.15;
   color: var(--dl-color-gray-black);
-  background-color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-24);
 
 }
 

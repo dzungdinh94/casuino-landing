@@ -1,9 +1,9 @@
 <template>
   <div class="countdown-container">
-    <span class="landing-page-upcoming-events-text024">
+    <span class="landing-page-upcoming-events-text024  text-[24px] md:text-[60px]">
       <span>Together, we will pave the way for incredible returns.</span>
     </span>
-    <div class="landing-page-upcoming-events-timepresale">
+    <div class="landing-page-upcoming-events-timepresale w-full">
       <span class="landing-page-upcoming-events-text026 HeadingH5">
         <span>Pre-sale will end in</span>
       </span>
@@ -61,23 +61,21 @@ export default {
 }
 .landing-page-upcoming-events-text024 {
   color: var(--dl-color-default-white);
-  width: 992px;
   height: auto;
-  font-size: 60px;
   margin-top: 70px;
   font-style: Bold;
   text-align: center;
   font-family: Jura;
   font-weight: 700;
-  line-height: 80px;
   font-stretch: normal;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .landing-page-upcoming-events-timepresale {
   display: flex;
-  align-items: center;
   flex-direction: column;
   margin-top: 40px;
+ 
 }
 .landing-page-upcoming-events-text026 {
   color: var(--dl-color-default-white);
@@ -91,10 +89,10 @@ export default {
 .landing-page-upcoming-events-times {
   gap: 8px;
   display: flex;
-  align-items: flex-start;
+  width: 100%;
+  justify-content: center;
 }
 .landing-page-upcoming-events-frame889 {
-  width: 192px;
   display: flex;
   padding: 24px 40px;
   align-items: center;
@@ -123,7 +121,7 @@ export default {
   font-weight: 700;
 }
 .landing-page-upcoming-events-frame890 {
-  width: 192px;
+  
   display: flex;
   padding: 24px 40px;
   align-items: center;
@@ -133,7 +131,7 @@ export default {
   background-color: var(--dl-color-default-white);
 }
 .landing-page-upcoming-events-frame891 {
-  width: 192px;
+  
   display: flex;
   padding: 24px 40px;
   align-items: center;
@@ -144,7 +142,7 @@ export default {
 }
 
 .landing-page-upcoming-events-frame892 {
-  width: 192px;
+  
   display: flex;
   padding: 24px 40px;
   align-items: center;

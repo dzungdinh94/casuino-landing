@@ -1,11 +1,11 @@
 <template>
   <div class="landing-page-upcoming-events-whywechooseyou">
-    <span class="landing-page-upcoming-events-text151">
+    <span class="landing-page-upcoming-events-text151 mb-10 lg:mb-4">
       <span>Why you choose us</span>
     </span>
-    <div class="landing-page-upcoming-events-iconbox">
-      <div class="landing-page-upcoming-events-framerow1">
-        <div class="landing-page-upcoming-events-frame12">
+    <div class="landing-page-upcoming-events-iconbox gap-4 w-full">
+      <div class="landing-page-upcoming-events-framerow1 w-full flex-col lg:flex-row">
+        <div class="landing-page-upcoming-events-frame12 w-full">
           <img
             alt="user9444"
             src="~/assets/external/user9444-uzv.svg"
@@ -23,7 +23,7 @@
             </span>
           </div>
         </div>
-        <div class="landing-page-upcoming-events-frame22">
+        <div class="landing-page-upcoming-events-frame12 w-full">
           <img
             alt="handshake9444"
             src="~/assets/external/handshake9444-f6m.svg"
@@ -38,7 +38,7 @@
             </span>
           </div>
         </div>
-        <div class="landing-page-upcoming-events-frame31">
+        <div class="landing-page-upcoming-events-frame12 w-full">
           <img
             alt="money9444"
             src="~/assets/external/money9444-j4c5.svg"
@@ -57,8 +57,8 @@
           </div>
         </div>
       </div>
-      <div class="landing-page-upcoming-events-row2">
-        <div class="landing-page-upcoming-events-frame41">
+      <div class="landing-page-upcoming-events-row2  w-full flex-col lg:flex-row">
+        <div class="landing-page-upcoming-events-frame12 w-full">
           <img
             alt="moneytransaction9444"
             src="~/assets/external/moneytransaction9444-bl09.svg"
@@ -73,7 +73,7 @@
             </span>
           </div>
         </div>
-        <div class="landing-page-upcoming-events-frame51">
+        <div class="landing-page-upcoming-events-frame12 w-full">
           <img
             alt="gameplay9444"
             src="~/assets/external/gameplay9444-f13.svg"
@@ -91,7 +91,7 @@
             </span>
           </div>
         </div>
-        <div class="landing-page-upcoming-events-frame61">
+        <div class="landing-page-upcoming-events-frame12 w-full">
           <img
             alt="onchain9444"
             src="~/assets/external/onchain9444-fttr.svg"
@@ -110,8 +110,8 @@
           </div>
         </div>
       </div>
-      <div class="landing-page-upcoming-events-row3">
-        <div class="landing-page-upcoming-events-frame71">
+      <div class="landing-page-upcoming-events-row3 flex-col lg:flex-row w-full">
+        <div class="landing-page-upcoming-events-frame12 w-full">
           <img
             alt="gameinhouse9444"
             src="~/assets/external/gameinhouse9444-hdej.svg"
@@ -126,7 +126,7 @@
             </span>
           </div>
         </div>
-        <div class="landing-page-upcoming-events-frame81">
+        <div class="landing-page-upcoming-events-frame12 w-full">
           <img
             alt="leaderboard9444"
             src="~/assets/external/leaderboard9444-rtio.svg"
@@ -159,13 +159,9 @@ export default {
   flex-direction: column;
   align-items: flex-start;
   flex-shrink: 0;
-  margin: 64px 244px;
+  margin: 64px 0px;
 }
 .landing-page-upcoming-events-iconbox {
-  gap: 8px;
-  top: 124px;
-  left: 243px;
-  width: 1192px;
   display: flex;
 
   align-items: flex-start;
@@ -174,15 +170,15 @@ export default {
 .landing-page-upcoming-events-framerow1 {
   gap: 8px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: space-between;
 }
 .landing-page-upcoming-events-frame12 {
-  gap: 64px;
-  width: 492px;
   display: flex;
   padding: 16px 24px 24px;
   align-items: flex-start;
   flex-shrink: 0;
+  flex: 1;
   border-color: rgba(61, 61, 61, 1);
   border-style: solid;
   border-width: 1px;
@@ -215,8 +211,6 @@ export default {
   line-height: 24px;
 }
 .landing-page-upcoming-events-frame22 {
-  gap: 64px;
-  width: 292px;
   display: flex;
   padding: 16px 24px 24px;
   align-items: flex-start;
@@ -253,8 +247,6 @@ export default {
   line-height: 24px;
 }
 .landing-page-upcoming-events-frame31 {
-  gap: 64px;
-  width: 384px;
   display: flex;
   padding: 16px 24px 24px;
   align-items: flex-start;
@@ -296,8 +288,6 @@ export default {
   align-items: flex-start;
 }
 .landing-page-upcoming-events-frame41 {
-  gap: 64px;
-  width: 292px;
   display: flex;
   padding: 16px 24px 24px;
   align-items: flex-start;
@@ -334,8 +324,6 @@ export default {
   line-height: 24px;
 }
 .landing-page-upcoming-events-frame51 {
-  gap: 64px;
-  width: 492px;
   display: flex;
   padding: 16px 24px 24px;
   align-items: flex-start;
@@ -372,8 +360,6 @@ export default {
   line-height: 24px;
 }
 .landing-page-upcoming-events-frame61 {
-  gap: 64px;
-  width: 392px;
   display: flex;
   padding: 16px 24px 24px;
   align-items: flex-start;
@@ -415,8 +401,6 @@ export default {
   align-items: flex-start;
 }
 .landing-page-upcoming-events-frame71 {
-  gap: 64px;
-  width: 392px;
   display: flex;
   padding: 16px 24px 24px;
   align-items: flex-start;
@@ -453,8 +437,6 @@ export default {
   line-height: 24px;
 }
 .landing-page-upcoming-events-frame81 {
-  gap: 64px;
-  width: 488px;
   display: flex;
   padding: 16px 24px 24px;
   align-items: flex-start;
@@ -491,9 +473,7 @@ export default {
   line-height: 24px;
 }
 .landing-page-upcoming-events-text151 {
-  left: 243px;
   color: rgba(255, 255, 255, 1);
-  width: 892px;
   height: auto;
 
   font-size: 60px;

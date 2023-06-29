@@ -3,12 +3,12 @@
     <span class="landing-page-upcoming-events-text153">
       <span>Power &amp; Partner</span>
     </span>
-    <div class="partner-body">
+    <div class="partner-body flex-col lg:flex-row gap-2">
       <div class="landing-page-upcoming-events-power">
         <span class="landing-page-upcoming-events-text155 HeadingH5">
           <span>Power by</span>
         </span>
-        <div class="landing-page-upcoming-events-group382">
+        <div class="landing-page-upcoming-events-group382 p-4">
           <div class="landing-page-upcoming-events-frame919">
             <img
               alt="image39533"
@@ -32,7 +32,7 @@
         <span class="landing-page-upcoming-events-text157 HeadingH5">
           <span>Partner</span>
         </span>
-        <div class="landing-page-upcoming-events-group383">
+        <div class="landing-page-upcoming-events-group383 p-4">
           <div class="landing-page-upcoming-events-frame918">
             <div class="landing-page-upcoming-events-logo">
               <div class="landing-page-upcoming-events-group1000001748">
@@ -74,12 +74,10 @@ export default {
   flex-direction: column;
   align-items: flex-start;
   flex-shrink: 0;
-  margin: 64px 244px;
+  margin: 64px 0px;
 }
 .landing-page-upcoming-events-text153 {
-  left: 244px;
   color: rgba(255, 255, 255, 1);
-  width: 780px;
   height: auto;
 
   font-size: 60px;
@@ -104,7 +102,6 @@ export default {
   align-items: flex-start;
   flex-direction: column;
   flex: 1;
-  margin-right: 8px;
 }
 .landing-page-upcoming-events-text155 {
   color: var(--dl-color-default-white);
@@ -157,7 +154,6 @@ export default {
   margin-bottom: 24px;
 }
 .landing-page-upcoming-events-group383 {
-  height: 158px;
   display: flex;
   position: relative;
   align-items: center;
