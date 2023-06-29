@@ -1,6 +1,6 @@
 <template>
   <div
-    class="landing-page-upcoming-events-header flex flex-col items-center sm:px-[24px] md:px-[100px] lg:px-[244px] xlg:px-[244px]"
+    class="landing-page-upcoming-events-header flex flex-col items-center sm:px-[24px] md:px-[100px] lg:px-[244px] xlg:px-[244px] z-1"
   >
     <img
       alt="Illus0119628"

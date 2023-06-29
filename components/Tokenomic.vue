@@ -1,5 +1,5 @@
 <template>
-  <div class="landing-page-upcoming-events-tokenomics p-4 lg:p-6">
+  <div class="landing-page-upcoming-events-tokenomics p-4 lg:p-6 z-1">
     <span
       class="landing-page-upcoming-events-text075 text-[24px] md:text-[60px]"
     >
@@ -152,7 +152,7 @@
         </div>
       </div>
       <div
-        class="flex p-6 lg:my-0 flex-1 w-full relative min-h-[200px] items-center justify-center"
+        class="flex p-6 lg:my-0 flex-1 w-full relative min-h-[200px] items-center justify-center z-1"
       >
         <div class="landing-page-upcoming-events-chart">
           <!-- <div class="hidden md:flex md:flex-col md:items-center">
@@ -176,7 +176,7 @@
           />
         </div>
         <div
-          class="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center"
+          class="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center z-1"
         >
           <img
             alt="Ellipse139401"

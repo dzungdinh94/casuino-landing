@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="landing-page-upcoming-events-frame885 bg-[#0A0A0A] sticky top-0 py-4 sm:px-[10px] md:px-[144px] lg:px-[244px] xlg:px-[244px]"
+    class="landing-page-upcoming-events-frame885 bg-[#0A0A0A] sticky top-0 py-4 sm:px-[10px] md:px-[144px] lg:px-[244px] xlg:px-[244px] z-10"
   >
     <div class="landing-page-upcoming-events-logo3 hidden md:flex">
       <img
