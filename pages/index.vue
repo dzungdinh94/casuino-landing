@@ -5,7 +5,7 @@
       <Banner />
 
       <div
-        class="flex flex-1 flex-col sm:px-[24px] md:px-[100px] lg:px-[244px] xlg:px-[244px]"
+        class="flex flex-1 flex-col px-[24px] md:px-[100px] lg:px-[244px] xlg:px-[244px]"
       >
         <count-down />
         <trade />

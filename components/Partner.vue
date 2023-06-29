@@ -9,7 +9,7 @@
           <span>Power by</span>
         </span>
         <div class="landing-page-upcoming-events-group382 p-4">
-          <div class="landing-page-upcoming-events-frame919">
+          <div class="landing-page-upcoming-events-frame919  flex-col md:flex-row gap-4">
             <img
               alt="image39533"
               src="~/assets/external/image39533-bwgb-200h.png"
@@ -33,7 +33,7 @@
           <span>Partner</span>
         </span>
         <div class="landing-page-upcoming-events-group383 p-4">
-          <div class="landing-page-upcoming-events-frame918">
+          <div class="landing-page-upcoming-events-frame918   flex-col md:flex-row gap-4">
             <div class="landing-page-upcoming-events-logo">
               <div class="landing-page-upcoming-events-group1000001748">
                 <div class="landing-page-upcoming-events-logo1">
@@ -111,10 +111,8 @@ export default {
   margin-bottom: 24px;
 }
 .landing-page-upcoming-events-group382 {
-  height: 158px;
   border-radius: 8px;
   display: flex;
-  position: relative;
   flex: 1;
   width: 100%;
   flex-shrink: 1;

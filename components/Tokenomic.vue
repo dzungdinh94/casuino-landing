@@ -1,10 +1,16 @@
 <template>
   <div class="landing-page-upcoming-events-tokenomics p-4 lg:p-6">
-    <span class="landing-page-upcoming-events-text075">
+    <span
+      class="landing-page-upcoming-events-text075 text-[24px] md:text-[60px]"
+    >
       <span>Tokenomic</span>
     </span>
-    <div class="landing-page-upcoming-events-info flex-col lg:flex-row justify-center items-center">
-      <div class="landing-page-upcoming-events-left w-full flex-col lg:flex-row">
+    <div
+      class="landing-page-upcoming-events-info flex-col lg:flex-row justify-center items-center"
+    >
+      <div
+        class="landing-page-upcoming-events-left w-full flex-col lg:flex-row"
+      >
         <div class="landing-page-upcoming-events-frame1">
           <div class="landing-page-upcoming-events-frame11">
             <img
@@ -145,17 +151,11 @@
           </div>
         </div>
       </div>
-      <div class="landing-page-upcoming-events-right my-6 lg:my-0 justify-center">
+      <div
+        class="flex p-6 lg:my-0 flex-1 w-full relative min-h-[200px] items-center justify-center"
+      >
         <div class="landing-page-upcoming-events-chart">
-          <div class="landing-page-upcoming-events-shape">
-            <img
-              alt="Ellipse139401"
-              src="~/assets/external/shape.png"
-              class="landing-page-upcoming-events-ellipse13"
-            />
-           
-          </div>
-          <div class="landing-page-upcoming-events-stas">
+          <!-- <div class="hidden md:flex md:flex-col md:items-center">
             <div class="landing-page-upcoming-events-top">
               <span class="landing-page-upcoming-events-text113 HeadingH4">
                 <span>15%</span>
@@ -167,7 +167,22 @@
             <span class="landing-page-upcoming-events-text117 TitleLBold">
               <span>in each transaction</span>
             </span>
-          </div>
+          </div> -->
+
+          <img
+            alt="Ellipse139401"
+            src="~/assets/external/0031.png"
+            class="w-[140px] h-[140px]  md:w-[260px] md:h-[260px]"
+          />
+        </div>
+        <div
+          class="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center"
+        >
+          <img
+            alt="Ellipse139401"
+            src="~/assets/external/shape.png"
+            class="w-[180px] h-[180px] md:w-[358px] md:h-[358px]"
+          />
         </div>
       </div>
     </div>
@@ -195,21 +210,16 @@ export default {
   color: var(--dl-color-default-white);
   height: auto;
   margin-bottom: 40px;
-  font-size: 60px;
   align-self: stretch;
   font-style: Bold;
   text-align: center;
   font-family: Jura;
   font-weight: 700;
-  line-height: 80px;
   font-stretch: normal;
   text-decoration: none;
 }
 .landing-page-upcoming-events-info {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex: 1;
 }
 .landing-page-upcoming-events-left {
   display: flex;
@@ -229,7 +239,6 @@ export default {
 .landing-page-upcoming-events-frame11 {
   gap: 16px;
   display: flex;
-
 }
 .landing-page-upcoming-events-rectangle10 {
   width: 16px;
@@ -506,18 +515,13 @@ export default {
 }
 .landing-page-upcoming-events-right {
   display: flex;
-  padding: 8px;
-  margin-left: 15px;
-  flex: 1;
 }
 .landing-page-upcoming-events-chart {
   display: flex;
-  position: relative;
   align-items: flex-start;
   flex-shrink: 1;
 }
 .landing-page-upcoming-events-shape {
-
   display: flex;
   align-items: flex-start;
   flex-shrink: 1;
@@ -525,13 +529,11 @@ export default {
 .landing-page-upcoming-events-ellipse13 {
   top: 0px;
   left: 0px;
+  position: absolute;
 }
 .landing-page-upcoming-events-stas {
   gap: 4px;
-  top: 144.44749450683594px;
-  left: 66.55249786376953px;
   display: flex;
-  position: absolute;
   align-items: center;
   flex-direction: column;
   justify-content: center;

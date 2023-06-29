@@ -8,35 +8,35 @@
         <span>Pre-sale will end in</span>
       </span>
       <div class="landing-page-upcoming-events-times">
-        <div class="landing-page-upcoming-events-frame889">
-          <span class="landing-page-upcoming-events-text028 HeadingH4">
+        <div class="landing-page-upcoming-events-frame889 flex-1">
+          <span class="landing-page-upcoming-events-text028 HeadingH4 text-[20px] md:text-[34px]">
             <span>04</span>
           </span>
-          <span class="landing-page-upcoming-events-text030 TitleLBold">
+          <span class="landing-page-upcoming-events-text030 TitleLBold text-[12px] md:text-[16px]">
             <span>DAYS</span>
           </span>
         </div>
-        <div class="landing-page-upcoming-events-frame890">
-          <span class="landing-page-upcoming-events-text028 HeadingH4">
+        <div class="landing-page-upcoming-events-frame889 flex-1 ">
+          <span class="landing-page-upcoming-events-text028 HeadingH4 text-[20px] md:text-[34px]">
             <span>15</span>
           </span>
-          <span class="landing-page-upcoming-events-text030 TitleLBold">
+          <span class="landing-page-upcoming-events-text030 TitleLBold text-[12px] md:text-[16px]">
             <span>HOURS</span>
           </span>
         </div>
-        <div class="landing-page-upcoming-events-frame891">
-          <span class="landing-page-upcoming-events-text028 HeadingH4">
+        <div class="landing-page-upcoming-events-frame889 flex-1">
+          <span class="landing-page-upcoming-events-text028 HeadingH4 text-[20px] md:text-[34px]">
             <span>29</span>
           </span>
-          <span class="landing-page-upcoming-events-text030 TitleLBold">
+          <span class="landing-page-upcoming-events-text030 TitleLBold text-[12px] md:text-[16px]">
             <span>MIN</span>
           </span>
         </div>
-        <div class="landing-page-upcoming-events-frame892">
-          <span class="landing-page-upcoming-events-text028 HeadingH4">
+        <div class="landing-page-upcoming-events-frame889 flex-1">
+          <span class="landing-page-upcoming-events-text028 HeadingH4 text-[20px] md:text-[34px]">
             <span>35</span>
           </span>
-          <span class="landing-page-upcoming-events-text030 TitleLBold">
+          <span class="landing-page-upcoming-events-text030 TitleLBold text-[12px] md:text-[16px]">
             <span>SEC</span>
           </span>
         </div>
@@ -94,7 +94,6 @@ export default {
 }
 .landing-page-upcoming-events-frame889 {
   display: flex;
-  padding: 24px 40px;
   align-items: center;
   flex-shrink: 0;
   border-radius: 8px;
@@ -106,7 +105,6 @@ export default {
   height: auto;
   text-align: center;
   line-height: 42px;
-  font-size: 34px;
   font-family: Jura;
   font-weight: 700;
   line-height: 42px;

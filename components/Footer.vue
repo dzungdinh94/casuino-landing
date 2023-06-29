@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-10 md:flex-row pt-[40px] pb-32 sm:px-[24px] md:px-[100px] lg:px-[244px] xlg:px-[244px] bg-[#1F1F1F]">
+  <div class="flex flex-col gap-10 md:flex-row pt-[40px] pb-32 px-6 md:px-[100px] lg:px-[244px] xlg:px-[244px] bg-[#1F1F1F]">
     <div class="footer-item">
       <div class="landing-page-upcoming-events-logo2">
         <img

@@ -3,7 +3,7 @@
     <span class="landing-page-upcoming-events-text022">
       <span>Roadmap</span>
     </span>
-    <div class="landing-page-upcoming-events-frame913">
+    <div class="landing-page-upcoming-events-frame913 flex-col gap-4 md:flex-row">
       <div class="roadmap-milestone">
         <div class="landing-page-upcoming-events-frame912">
           <div class="landing-page-upcoming-events-frame911">

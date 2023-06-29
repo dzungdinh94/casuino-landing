@@ -4,7 +4,7 @@
       <div class="landing-page-upcoming-events-frame898">
         <div class="landing-page-upcoming-events-statitic flex flex-col md:flex-row w-full justify-start md:items-center">
           <div class="landing-page-upcoming-events-title justify-start">
-            <span class="landing-page-upcoming-events-text044 HeadingH3">
+            <span class="landing-page-upcoming-events-text044 HeadingH3 text-[34px] md:text-[48px]">
               <span>$CSC COIN</span>
             </span>
             <span class="landing-page-upcoming-events-text046 HeadingH6">

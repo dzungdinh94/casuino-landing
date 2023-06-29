@@ -64,7 +64,6 @@ export default {
   text-align: left;
   font-family: Jura;
   font-weight: 700;
-  line-height: 80px;
   font-stretch: normal;
   text-decoration: none;
   margin-bottom: 40px;
