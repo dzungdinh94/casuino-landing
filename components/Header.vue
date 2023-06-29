@@ -46,7 +46,7 @@
       </button> -->
     </div>
   </nav>
-  <nav class="bg-[#0A0A0A] md:hidden flex p-4 fixed bottom-0 w-full justify-between items-center">
+  <nav class="bg-[#0A0A0A] md:hidden flex p-4 fixed bottom-0 w-full justify-between items-center z-10">
     <button
       data-collapse-toggle="navbar-default"
       type="button"
